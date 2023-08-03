@@ -3,12 +3,12 @@
 export const Work = [
     {
         id:1,
-        name:"Agency Landing Page",
-        description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-        tags:["react","gsap","styledComponents"],
+        name:"Nama usaha",
+        description:"alamat/no telp/deskripsi usahanya",
+        tags:["no telp"],
         
-        demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/codebucks27/Agency-website"
+        demo:"https://agency-website-eta.vercel.app/", //toko onlinenya kayak tokped
+        github:"https://github.com/codebucks27/Agency-website" //jadi instagram aja/sosmed lain
     },
     {
         id:2,
