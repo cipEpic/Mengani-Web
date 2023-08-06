@@ -1,21 +1,21 @@
-export const PowerBtn = (props) => {
+export const HomeBtn = (props) => {
   return (
     <svg
       aria-hidden="true"
       data-prefix="fas"
-      data-icon="power-off"
-      className="prefix__svg-inline--fa prefix__fa-power-off prefix__fa-w-16"
+      data-icon="home"
+      className="prefix__svg-inline--fa prefix__fa-home prefix__fa-w-18"
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 512 512"
+      viewBox="0 0 576 512"
       {...props}
     >
       <path
         fill={props.fill}
-        d="M288 32L32 256v224h192V368h128v112h192V256L288 32zm232 248h-48V136c0-13.3-10.7-24-24-24h-80c-13.3 0-24 10.7-24 24v144h-48V136c0-35.3 28.7-64 64-64h80c35.3 0 64 28.7 64 64v144z"
+        d="M569.89 250.54L304.18 45.21a12.42 12.42 0 0 0-16.36 0L6.11 250.54a12.43 12.43 0 0 0-1.46 17.33l18.48 21.78a12 12 0 0 0 16.6 1.44L288 106.84V392a24 24 0 0 0 24 24h48a24 24 0 0 0 24-24V106.84l247.28 184.25a12 12 0 0 0 16.6-1.44l18.48-21.78a12.43 12.43 0 0 0-1.47-17.32z"
       />
     </svg>
-  )
-}
+  );
+};
 
 export const Github = (props) => {
     return (
@@ -111,6 +111,24 @@ export const YinYang = (props) => {
         </svg>
       )
 }
+
+export const jeruk = (props) => {
+  return (
+    <svg
+      aria-hidden="true"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+      {...props}
+    >
+      {/* Replace the path below with your custom SVG code */}
+      <path
+        fill={props.fill}
+        d="M256 8C119.03 8 0 119.03 0 256s119.03 248 256 248 256-111.03 256-248S392.97 8 256 8zm0 376c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32zm0-128c-53.02 0-96 42.98-96 96s42.98 96 96 96c-106.04 0-192-85.96-192-192S141.96 64 248 64c53.02 0 96 42.98 96 96s-42.98 96-96 96zm0-128c-17.67 0-32 14.33-32 32s14.33 32 32 32 32-14.33 32-32-14.33-32-32-32z"
+      />
+    </svg>
+  );
+};
+
 
 export const Anchor = (props) => {
   return (

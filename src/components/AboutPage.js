@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { keyframes, ThemeProvider } from 'styled-components'
-import {DarkTheme} from './Themes';
+import {DarkTheme, MenganiTheme} from './Themes';
 
 
 import LogoComponent from '../subComponents/LogoComponent';
@@ -49,7 +49,7 @@ const Main =  styled.div`
  backdrop-filter: blur(4px);
   
   position: absolute;
-  left: calc(5rem + 5vw);
+  left: calc(5rem + 15vw);
   top: 10rem;
   font-family: 'Ubuntu Mono', monospace;
   font-style: italic;
@@ -60,7 +60,7 @@ const Main =  styled.div`
 
 const AboutPage = () => {
     return (
-        <ThemeProvider theme={DarkTheme}>
+        <ThemeProvider theme={MenganiTheme}>
 <Box>
 
 <LogoComponent theme='dark'/>
@@ -68,9 +68,9 @@ const AboutPage = () => {
 <PowerButton />
 <ParticleComponent theme='dark' />
 
-        <Spaceman>
+        {/* <Spaceman>
             <img src={astronaut} alt="spaceman" />
-        </Spaceman>    
+        </Spaceman>     */}
         <Main>
         I'm a front-end developer located in India. I love to create simple yet beautiful websites with great user experience.
 <br /> <br/>

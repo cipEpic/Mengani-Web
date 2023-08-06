@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import styled, { ThemeProvider } from "styled-components";
-import { DarkTheme } from "./Themes";
+import { DarkTheme, MenganiTheme } from "./Themes";
 import { motion } from "framer-motion";
 
 import LogoComponent from "../subComponents/LogoComponent";
@@ -74,7 +74,7 @@ const WorkPage = () => {
   }, []);
 
   return (
-    <ThemeProvider theme={DarkTheme}>
+    <ThemeProvider theme={MenganiTheme}>
       <Box>
         <LogoComponent theme="dark" />
         <SocialIcons theme="dark" />

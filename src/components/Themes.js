@@ -17,3 +17,12 @@ export const DarkTheme = {
     textRgba : "252, 246, 244",
     bodyRgba:"0,0,0",
 }
+
+export const MenganiTheme = {
+
+    body:"#962547",
+    text:"#FCF6F4",
+    fontFamily:"'Source Sans Pro', sans-serif",
+    textRgba : "252, 246, 244",
+    bodyRgba:"0,0,0",
+}
