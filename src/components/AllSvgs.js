@@ -1,4 +1,5 @@
 import { ReactComponent as JerukSvg } from '../assets/svg/jeruk.svg';
+import { ReactComponent as TokpedSvg } from '../assets/svg/hires-toped-tokopedia-mascot-new.svg';
 
 export const HomeBtn = props => {
     return (
@@ -36,6 +37,10 @@ export const Github = props => {
             />
         </svg>
     );
+};
+
+export const Tokped = props => {
+    return <TokpedSvg {...props} />;
 };
 
 export const Twitter = props => {
