@@ -10,6 +10,7 @@ import PowerButton from "../subComponents/PowerButton";
 import { Work } from "../data/WorkData";
 import Card from "../subComponents/Card";
 import { YinYang } from "./AllSvgs";
+import { Jeruk } from "./AllSvgs";
 import BigTitlte from "../subComponents/BigTitlte";
 
 const Box = styled.div`
@@ -55,7 +56,7 @@ const container = {
 
 const WorkPage = () => {
   const ref = useRef(null);
-  const yinyang = useRef(null);
+  const JerukSvg = useRef(null);
 
   useEffect(() => {
     let element = ref.current;
@@ -63,7 +64,7 @@ const WorkPage = () => {
     const rotate = () => {
       element.style.transform = `translateX(${-window.pageYOffset}px)`;
 
-      return (yinyang.current.style.transform =
+      return (JerukSvg.current.style.transform =
         "rotate(" + -window.pageYOffset + "deg)");
     };
 
@@ -85,8 +86,8 @@ const WorkPage = () => {
             <Card key={d.id} data={d} />
           ))}
         </Main>
-        <Rotate ref={yinyang}>
-          <YinYang width={80} height={80} fill={DarkTheme.text} />
+        <Rotate ref={JerukSvg}>
+          <Jeruk width={80} height={80} fill={DarkTheme.text} />
         </Rotate>
 
         <BigTitlte text="WORK" top="10%" right="20%" />
