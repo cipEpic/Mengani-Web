@@ -107,7 +107,7 @@ const Center = styled.button`
     transition: all 1s ease;
 
     & > :first-child {
-        animation: ${rotate} infinite 1.5s linear;
+        animation: ${rotate} infinite 5.5s linear;
     }
 
     & > :last-child {
