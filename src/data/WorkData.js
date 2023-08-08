@@ -7,8 +7,8 @@ export const Work = [
         description:"alamat/no telp/deskripsi usahanya",
         tags:["no telp"],
         
-        demo:"https://agency-website-eta.vercel.app/", //toko onlinenya kayak tokped
-        github:"https://github.com/codebucks27/Agency-website" //jadi instagram aja/sosmed lain
+        demo:"https://wa.me/085536553592", //wa me
+        github:"https://github.com/codebucks27/Agency-website" //toko onlinenya kayak tokped
     },
     {
         id:2,
