@@ -259,7 +259,7 @@ const Main = () => {
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.9 }}
                         >
-                            Informasi Toko.
+                            Informasi Petani.
                         </motion.h2>
                     </SKILLS>
                 </BottomBar>
