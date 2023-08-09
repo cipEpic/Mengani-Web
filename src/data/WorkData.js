@@ -5,7 +5,7 @@ export const Work = [
         id:1,
         name:"Nama usaha",
         description:"alamat/no telp/deskripsi usahanya",
-        tags:["no telp"],
+        tags:["komoditas"],
         
         demo:"https://wa.me/085536553592", //wa me
         github:"https://github.com/codebucks27/Agency-website" //toko onlinenya kayak tokped
