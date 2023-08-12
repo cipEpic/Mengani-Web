@@ -72,11 +72,11 @@ const AboutPage = () => {
             <img src={astronaut} alt="spaceman" />
         </Spaceman>     */}
         <Main>
-        I'm a front-end developer located in India. I love to create simple yet beautiful websites with great user experience.
+        Desa mengani adalah salah satu desa di kecamatan Kintamani yang mempunyai luas wilayah 427 Ha.
 <br /> <br/>
-I'm interested in the whole frontend stack Like trying new things and building great projects. I'm an independent freelancer and blogger. I love to write blogs and read books.
+Website ini dibuat untuk membantu para petani dan pengepul dalam menjual komoditas yang telah dihasilkan.
 <br/> <br/>
-I believe everything is an Art when you put your consciousness in it. You can connect with me via social links.
+komoditas tersebut diantaranya berupa jeruk, kopi, ataupun sayur. Pembeli dapat menghubungi petani/pengepul melalui nomer whatshapp yang telah tersedia pada menu informasi petani.
         </Main>
 
         <BigTitle text="ABOUT" top="10%" left="5%" />
