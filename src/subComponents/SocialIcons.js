@@ -83,7 +83,7 @@ const SocialIcons = props => {
                 <a
                     style={{ color: 'inherit' }}
                     target="_blank"
-                    href={'https://facebook.com/'}
+                    href={'https://web.facebook.com/pemdes.mengani.5'}
                     rel="noreferrer"
                 >
                     <Facebook
