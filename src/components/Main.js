@@ -153,7 +153,7 @@ const Main = () => {
                     <span>about website</span>
                 </Center>
 
-                <Contact target="_blank" href="mailto:epikdiana@gmail.com">
+                <Contact target="_blank" href="mailto:PemdesMengani@gmail.com">
                     <motion.h2
                         initial={{
                             y: -200,
